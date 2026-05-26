@@ -49,6 +49,6 @@ Beautiful modern weather interface with animated effects and responsive layout.
 Web Developer & BCA Student
 
 ---
-## 📌 GitHub Repository
+## 📌 Live demo
 
-https://github.com/vicky2030-analyst/weather-app
+https://vickyweather2026.netlify.app/
