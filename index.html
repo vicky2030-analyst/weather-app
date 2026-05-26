@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#0f172a">
+
+  <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+  <div class="navbar">
+
+  <a href="index.html">Home</a>
+
+  <a href="about.html">About</a>
+
+  <a href="service.html">Services</a>
+
+  <a href="gallery.html">Gallery</a>
+
+  <a href="faq.html">FAQ</a>
+
+  <a href="contact.html">Contact</a>
+
+</div>
+
+<div class="main-layout"></div>
+
+  <div class="weather-box">
+
+    <table>
+
+      <tr>
+
+        <td>
+          <input type="text"
+          id="cityInput"
+          placeholder="Enter Your City">
+        </td>
+
+        <td width="100">
+          <button onclick="getWeather()" style="background-color:green; color:white; padding:12px; width:120px;">
+            Search
+          </button>
+        </td>
+
+      </tr>
+
+    </table>
+
+    <div id="loading">
+
+  <div class="loader"></div>
+
+  <p>Loading Weather...</p>
+
+</div>
+
+    <div class="weather-info">
+
+      <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png">
+
+      <div class="temp" id="temp">
+        --°C
+      </div>
+
+      <div class="city" id="city">
+        City Name
+      </div>
+
+    </div>
+
+    <table class="details">
+
+      <tr>
+
+        <td>
+          <h3 id="humidity">--%</h3>
+          <p>Humidity</p>
+        </td>
+
+        <td>
+          <h3 id="wind">-- km/h</h3>
+          <p>Wind Speed</p>
+        </td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <script src="script.js"></script>
+
+  <div class="main-container"></div>
+
+  </div>
+
+<div class="footer">
+  Created By:- Vicky Kashyap
+</div>
+
+</body>
+</html>
